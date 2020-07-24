@@ -44,17 +44,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Service1.cs">
+    <Compile Include="ServiceRunner.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Service1.Designer.cs">
-      <DependentUpon>Service1.cs</DependentUpon>
+    <Compile Include="ServiceRunner.Designer.cs">
+      <DependentUpon>ServiceRunner.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Homenet.Common\Homenet.Common.csproj">
+      <Project>{d357a451-f291-452e-882e-d837f5f32e9f}</Project>
+      <Name>Homenet.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Homenet.Contracts\Homenet.Contracts.csproj">
+      <Project>{583DFC20-C4A3-413F-A638-A8D2AE349863}</Project>
+      <Name>Homenet.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Homenet.Core\Homenet.Core.csproj">
+      <Project>{1c1ec57b-d06f-4da0-a471-2d6144cbf121}</Project>
+      <Name>Homenet.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

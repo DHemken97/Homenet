@@ -1,6 +1,6 @@
 ﻿namespace Homenet.ServiceHost
 {
-    partial class Service1
+    partial class ServiceRunner
     {
         /// <summary> 
         /// Required designer variable.

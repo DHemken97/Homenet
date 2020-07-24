@@ -29,6 +29,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domains", "Domains", "{EC6C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{CD8906FF-5F57-4B2E-8114-A49EDC400111}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homenet.Common", "Homenet.Common\Homenet.Common.csproj", "{D357A451-F291-452E-882E-D837F5F32E9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,10 @@ Global
 		{893872DE-A6F3-48EA-9C2A-AB80EF83DF37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{893872DE-A6F3-48EA-9C2A-AB80EF83DF37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{893872DE-A6F3-48EA-9C2A-AB80EF83DF37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D357A451-F291-452E-882E-D837F5F32E9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D357A451-F291-452E-882E-D837F5F32E9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D357A451-F291-452E-882E-D837F5F32E9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D357A451-F291-452E-882E-D837F5F32E9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -68,6 +74,7 @@ Global
 		{86E7BF91-3AA1-4542-9602-FBA3CBFD2AAF} = {DA097775-19E8-48C3-89D2-C92BC3BEDAF1}
 		{EC6C09C3-48B0-472F-BA82-AE73355B038E} = {DA097775-19E8-48C3-89D2-C92BC3BEDAF1}
 		{CD8906FF-5F57-4B2E-8114-A49EDC400111} = {DA097775-19E8-48C3-89D2-C92BC3BEDAF1}
+		{D357A451-F291-452E-882E-D837F5F32E9F} = {C517D388-C11E-4B16-A7F0-83A04F857DE0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1F39A8DC-8D7B-40CB-AEB5-AA1F6FDE9E9C}
